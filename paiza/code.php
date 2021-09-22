@@ -45,6 +45,13 @@
 // $hanbai2 = $souzai * $q;
 // $nokori = $souzai - $hanbai2;
 // echo $nokori;
-
-
 // var_dump($nakami) ;
+
+// C086
+// https://qiita.com/SOJO/items/bb24e7d09320ea96cfc3
+// https://qumeru.com/magazine/82
+// $name = 'Torvalds';
+// $arr = explode(' ','a i u e o A I U E O');
+// $adana = str_replace($arr, '', $name);
+// echo $adana;
+// var_dump($arr);
