@@ -58,20 +58,22 @@
 
 // 簡易カードゲーム
 // https://singoro.net/note/get-the-number/
-$card = 8888;
-// $get1 = substr($s[0], 0, 1);
-// $get2 = substr($s[0], 1, 1);
-// $get3 = substr($s[0], 2, 1);
-// $get4 = substr($s[0], 3, 1);
-$get1 = substr($card, 0, 1);
-$get2 = substr($card, 1, 1);
-$get3 = substr($card, 2, 1);
-$get4 = substr($card, 3, 1);
-$numbers[] = $get1;
-$numbers[] = $get2;
-$numbers[] = $get3;
-$numbers[] = $get4;
-var_dump($numbers);
+// $card = 8888;
+// // $get1 = substr($s[0], 0, 1);
+// // $get2 = substr($s[0], 1, 1);
+// // $get3 = substr($s[0], 2, 1);
+// // $get4 = substr($s[0], 3, 1);
+// $get1 = substr($card, 0, 1);
+// $get2 = substr($card, 1, 1);
+// $get3 = substr($card, 2, 1);
+// $get4 = substr($card, 3, 1);
+// $numbers[] = $get1;
+// $numbers[] = $get2;
+// $numbers[] = $get3;
+// $numbers[] = $get4;
+// var_dump($numbers);
 // if (($get1 === $get2) && ($get1 === $get3) && ($get1 === $get4)) {
 //     echo 'Four card';
 // }
+
+
