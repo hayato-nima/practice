@@ -1,4 +1,13 @@
 <?php
+//標準入力の値の取り方
+//     $input_line = fgets(STDIN);
+//     for ($i = 0; $i < $input_line; $i++) {
+//     $s = trim(fgets(STDIN));
+//     $s = str_replace(array("\r\n","\r","\n"), '', $s);
+//     $s = explode(" ", $s);
+//     echo $s[0].' '.($s[1])."\n";
+// }
+
 // $personNumber = 6;
 // if (2 <= $personNumber && $personNumber <= 100) {
 //     $battleNumber = ($personNumber * ($personNumber -1)) / 2;
