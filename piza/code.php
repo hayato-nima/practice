@@ -5,7 +5,7 @@
 //     $s = trim(fgets(STDIN));
 //     $s = str_replace(array("\r\n","\r","\n"), '', $s);
 //     $s = explode(" ", $s);
-//     echo $s[0].' '.($s[1])."\n";
+//     echo $s[0].' '.$s[1].' '.$s[2]."\n";
 // }
 
 // $personNumber = 6;
@@ -85,4 +85,14 @@
 //     echo 'Four card';
 // }
 
-
+//Dateオブジェクトを使って日付を表示
+// $input_line = fgets(STDIN);
+// for ($i = 0; $i < $input_line; $i++) {
+//     $s = trim(fgets(STDIN));
+//     $s = str_replace(array("\r\n", "\r", "\n"), '', $s);
+//     $s = explode(" ", $s);
+//     // echo $s[0].' '.$s[1].' '.$s[2]."\n";
+//     $date = new DateTime($s[0]);
+//     $date->add(new DateInterval("PT{$s[1]}H{$s[2]}M"));
+//     echo $date->format('H:i') . "\n";
+// }
