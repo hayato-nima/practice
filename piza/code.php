@@ -96,3 +96,18 @@
 //     $date->add(new DateInterval("PT{$s[1]}H{$s[2]}M"));
 //     echo $date->format('H:i') . "\n";
 // }
+
+
+// $nmk = trim(fgets(STDIN));
+// [$n, $m, $k] = explode(' ', $nmk);
+// for ($i = 0; $i < $n; $i++) {
+//     $a = explode(' ', trim(fgets(STDIN)));
+//     $ans = 0;
+//     for ($j = 0; $j < $m; $j++) {
+//         if ($a[$j] === $k) {
+//             $ans++;
+//         }
+//     }
+//     echo $ans . "\n";
+// }
+
